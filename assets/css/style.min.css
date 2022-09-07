@@ -318,41 +318,9 @@ video {
     transition: all ease .3s
 }
 
-.ucapan:active {
-    transform: scale(1.02)
-}
-
-.ucapan :hover,
-.ucapan:hover {
-    cursor: pointer
-}
-
-.ucapan::before {
-    content: "ketuk untuk mencari";
-    font-size: 12pt;
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    left: 50%;
-    bottom: -80px;
-    background: #ffffffb0;
-    position: absolute;
-    z-index: 99;
-    border-radius: 10px;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: all ease .3s;
-    pointer-events: none
-}
-
-.ucapan:hover::before {
-    bottom: -60px;
-    opacity: 1
-}
-
 .myakun {
     color: #fff;
-    background: #00000080;
+    background:#eaeaea90;
     transform: translateY(0);
     width: 200px;
     height: 30px;
